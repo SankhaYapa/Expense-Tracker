@@ -38,7 +38,11 @@ namespace Expense_Tracker.Controllers
         }
 
         // POST: Category/AddOrEdit
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 55b73dde22129af1a727abbbcc33916e691b451e
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> AddOrEdit([Bind("CategoryId,Title,Icon,Type")] Category category)
