@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\ASP NET\\MVC\\Expense Tracker\\Expense Tracker\\Expense Tracker.csproj": {}
+    "D:\\YouTube\\Videos\\Asp.Net Core\\Expense Tracker\\Project\\Expense Tracker\\Expense Tracker\\Expense Tracker.csproj": {}
   },
   "projects": {
-    "F:\\ASP NET\\MVC\\Expense Tracker\\Expense Tracker\\Expense Tracker.csproj": {
+    "D:\\YouTube\\Videos\\Asp.Net Core\\Expense Tracker\\Project\\Expense Tracker\\Expense Tracker\\Expense Tracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ASP NET\\MVC\\Expense Tracker\\Expense Tracker\\Expense Tracker.csproj",
+        "projectUniqueName": "D:\\YouTube\\Videos\\Asp.Net Core\\Expense Tracker\\Project\\Expense Tracker\\Expense Tracker\\Expense Tracker.csproj",
         "projectName": "Expense Tracker",
-        "projectPath": "F:\\ASP NET\\MVC\\Expense Tracker\\Expense Tracker\\Expense Tracker.csproj",
-        "packagesPath": "C:\\Users\\sankh\\.nuget\\packages\\",
-        "outputPath": "F:\\ASP NET\\MVC\\Expense Tracker\\Expense Tracker\\obj\\",
+        "projectPath": "D:\\YouTube\\Videos\\Asp.Net Core\\Expense Tracker\\Project\\Expense Tracker\\Expense Tracker\\Expense Tracker.csproj",
+        "packagesPath": "C:\\Users\\CodAffection\\.nuget\\packages\\",
+        "outputPath": "D:\\YouTube\\Videos\\Asp.Net Core\\Expense Tracker\\Project\\Expense Tracker\\Expense Tracker\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\sankh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Users\\CodAffection\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -47,21 +42,29 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.15, )"
+              "version": "[6.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.15, )"
+              "version": "[6.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.15, )"
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.0, )"
             },
             "Syncfusion.EJ2.AspNet.Core": {
               "target": "Package",
-              "version": "[22.2.11, )"
+              "version": "[20.1.0.58, )"
             }
           },
           "imports": [
@@ -70,8 +73,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -83,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
